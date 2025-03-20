@@ -6,9 +6,12 @@ const Menu = () => {
   return (
     <main className="menu">
       <h2>Our Menu</h2>
-      {data.map((pizza) => {
-        return <Pizza pizza={pizza} />;
-      })}
+
+      <ul className="pizzas">
+        {data.map((pizza) => {
+          return <Pizza pizza={pizza} key={pizza.name} />;
+        })}
+      </ul>
     </main>
   );
 };
