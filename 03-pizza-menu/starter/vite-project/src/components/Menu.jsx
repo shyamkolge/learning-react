@@ -3,9 +3,11 @@ import Pizza from "./Pizza";
 
 const Menu = () => {
   return (
-    <div>
+    <main className="menu">
+      <h2>Our Menu</h2>
       <Pizza />
-    </div>
+      <Pizza />
+    </main>
   );
 };
 

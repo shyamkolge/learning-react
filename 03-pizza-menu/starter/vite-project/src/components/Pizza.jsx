@@ -1,14 +1,9 @@
 const Pizza = () => {
   return (
     <div>
-      <div>
-        <img src="focaccia.jpg" alt="" />
-      </div>
-      <div>
-        <h1>Name</h1>
-        <p>Ingradiance</p>
-        <span>Price</span>
-      </div>
+      <img src="./focaccia.jpg" alt="" />
+      <h3>Name</h3>
+      <p>Ingrediance</p>
     </div>
   );
 };
