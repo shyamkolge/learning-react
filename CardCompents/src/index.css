@@ -1,0 +1,40 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.card {
+  height: 100%;
+  width: 65%;
+  border: solid black;
+  border-radius: 5px;
+}
+
+img {
+  height: 200px;
+  width: 100%;
+}
+
+.skills {
+  padding: 20px 0px;
+}
+
+span {
+  /* display: flex;
+  flex-direction: row; */
+  margin: 0px 2px;
+  background-color: aquamarine;
+  padding: 2px 15px;
+  border-radius: 10px;
+}
+
+.heading {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.dis {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px 20px;
+}
