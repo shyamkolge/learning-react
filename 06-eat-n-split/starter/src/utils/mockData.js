@@ -18,3 +18,5 @@ const initialFriends = [
     balance: 0,
   },
 ];
+
+export default initialFriends;
